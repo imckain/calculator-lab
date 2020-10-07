@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted red;
+    min-height: 100vh;
+}
+
+#calculator {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
