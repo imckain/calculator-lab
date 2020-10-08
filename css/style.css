@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -16,11 +17,18 @@ body {
 
 .display-screen {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     width: 340px;
     height: 120px;
     background-color: lightgray;
     margin-left: 30px;
     margin-top: 2px;
+    border-radius: 10px;
 }
 
 #calculator {
@@ -30,17 +38,21 @@ body {
     width: 600px;
     flex-wrap: wrap;
     border: black;
+    border-radius: 10px;
     background-color: black;
     padding: 20px;
 }
 
-.numbers {
+.numbers, .clear {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
     height: 120px;
     width: 120px;
     margin: 2px;
+    border: black solid;
+    border-radius: 10px;
 }
 
 .clear {
